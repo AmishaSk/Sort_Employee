@@ -12,9 +12,5 @@ import com.EmployeeProject2.entity.Employee2;
 @Repository
 @EnableJpaRepositories
 public interface Employee2Repository extends CrudRepository<Employee2, Long> {
-    
-	//@Query("FROM Employee2 ORDER BY firstName,lastName ASC")
-	//List<Employee2> findAllOrderByNameAsc();
-    //@Query("FROM Employee2 ORDER BY age ASC")
-	//List<Employee2> findAllOrderByAgeAsc();
+   
 }
