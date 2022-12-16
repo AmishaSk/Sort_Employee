@@ -81,11 +81,7 @@ class EmployeeProject2ApplicationTests {
 		listemp.add(employee3);
 		Mockito.when(employee2Repository.findAll()).thenReturn(listemp);
 		listemp1=employee2Service.findAllOrderByAgeAsc();
-		//assertEquals("James Johnson", lemp1.get(0).getFirstName()+" "+lemp1.get(0).getLastName());
 		assertEquals(11,listemp1.get(0).getAge()); 
-		//List<Employee2> employeeList=employee2Service.findAllOrderByAgeAsc();
-		 //assertThat(employeeList).isNotNull();
-		 //assertThat(employeeList.size()).isEqualTo(0);	
 	}
 	@DisplayName("Testing for sorting name method")
 	@Test
