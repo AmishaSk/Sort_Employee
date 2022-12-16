@@ -46,7 +46,6 @@ public class Employee2ServiceImpl implements Employee2Service {
 				}
 			}
 		}
-		//return employee2Repository.findAllOrderByNameAsc();
 		return emp;
 	}
 	
@@ -66,7 +65,6 @@ public class Employee2ServiceImpl implements Employee2Service {
 				}
 			}
 		}
-		//return employee2Repository.findAllOrderByAgeAsc();
 		return emp1;
 	}
 }
