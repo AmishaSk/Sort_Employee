@@ -64,11 +64,9 @@ public class Employee2{
 	}
 	@Override
 	public String toString() {
-		return "Employee [empid=" + empid + ", firstName=" + firstName + ", lastName=" + lastName + ", age=" + age
-				+ ", salary=" + salary + "]";
-		//var builder=new StringBuilder();
-		//builder.append("Employee2{empid=").append(empid).append(", firstName=").append(firstName).append(", lastName=").append(lastName)
-		//.append(", age=").append(age).append(", salary=").append(salary);
-		//return builder.toString();
+		var builder=new StringBuilder();
+		builder.append("Employee2{empid=").append(empid).append(", firstName=").append(firstName).append(", lastName=").append(lastName)
+		.append(", age=").append(age).append(", salary=").append(salary);
+		return builder.toString();
 	}
 }
